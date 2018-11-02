@@ -11,24 +11,50 @@ header {
   background-position: right;
 }
 
-ul li {
-  padding: 5px;
+.menu nav li {
   display: inline-block;
-  position: relative;
-  padding-top: 20px;
-  border: solid 2px white;
+  list-style: none;
+  border: solid white 1px;
+  margin-left: 10px;
+}
+
+.menu nav ul {
+  text-align: right;
+  padding-top: 30px;
+  padding-right: 30px;
+}
+
+.menu nav a {
+  color: white;
+  background: rgba(0, 0, 0, 0.3);
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.menu nav a:hover {
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .texto-header {
   color: #ffffff;
   text-align: center;
-  margin-top: 250px;
+  margin-top: 150px;
 }
 
 .texto-header h1 {
   text-transform: uppercase;
   font-size: 50px;
   text-shadow: 3px 3px 5px black;
+}
+
+.texto-header p {
+  padding: 10px;
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.5);
+  border-bottom: solid 3px white;
 }
 
 main {
@@ -39,7 +65,7 @@ main {
 .content-section {
   background-color: #ffffff;
   margin-top: 15px;
-  padding-top: 15px;
+  padding-top: 15px;  
 }
 
 .artigo h2 {
