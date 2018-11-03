@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tabelas</title>
+
+    <style media="screen">
+      body {
+        font-family: sans-serif;
+        font-weight: bold;
+      }
+
+      td {
+        background: red;
+        border: solid 2px black;
+        text-align: center;
+        padding: 15px;
+      }
+
+      table {
+        border-collapse: collapse;
+      }
+
+      th {
+        background: black;
+        color: white;
+      }
+
+      tfoot td{
+        color: white;
+        padding: 5px;
+      }
+
+
+    </style>
+  </head>
+
+  <body>
+    <table>
+      <caption>Redes sociais</caption>
+      <thead>
+        <tr>
+          <th>Empresas</th>
+          <th>Usuários</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Facebook</td>
+          <td>7 bilhões</td>
+        </tr>
+
+        <tr>
+          <td>Instagram</td>
+          <td>5 bilhões</td>
+        </tr>
+
+        <tr>
+          <td>Whatsapp</td>
+          <td>3 bilhões</td>
+        </tr>
+
+        <tr>
+          <td>Twitter</td>
+          <td>1 bilhões</td>
+        </tr>
+
+        <tr>
+          <td>Snapchat</td>
+          <td>800 milhões</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <td colspan="2">Somente redes sociais com mais de 500 milhões de usuários.</td>
+      </tfoot>
+    </table>
+
+  </body>
+</html>
