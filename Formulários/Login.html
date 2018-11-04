@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+
+    <style media="screen">
+      body {
+        font-family: sans-serif;
+        background: black;
+      }
+
+      input {
+        margin-bottom: 10px;
+      }
+
+      #senha_id {
+        margin-left: 8px;
+      }
+
+      fieldset {
+        color: white;
+        margin-top: 20px;
+        background: #202020;
+      }
+
+      #botao_id {
+        width: 100%;
+      }
+
+      .formlogin {
+        width: 280px;
+        margin: 150px auto 0;
+      }
+
+      #usuario_id:focus, #senha_id:focus {
+        background: #c4c4c4;
+      }
+
+      legend {
+        background: #202020;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <form class="formlogin" action="index.html" method="post">
+      <fieldset>
+        <legend>Painel Administrativo</legend>
+        <label for="usuario_id">Usuário:</label>
+        <input type="text"
+        name="usuário"
+        value=""
+        id="usuario_id"
+        autofocus><br>
+
+        <label for="senha_id">Senha:</label>
+        <input type="password"
+        name="senha"
+        value=""
+        id="senha_id">
+
+        <input type="submit"
+        name=""
+        value="login"
+        id="botao_id">
+      </fieldset>
+    </form>
+  </body>
+</html>
