@@ -11,7 +11,9 @@
         <label for="">Email:</label>
         <input type="email"
         name=""
-        value="">
+        value=""
+        placeholder="digite um email valido."
+        required>
         <br>
         <label for="">Número de filhos:</label>
         <input type="number"
@@ -37,8 +39,71 @@
         id="feminino_id">
         <label for="feminino_id">Feminino</label>
         <br>
-        <input type="submit" name="" value="Enviar">
+        <label for="">Linguagens:</label>
+        <select class="" name="linguagens de programação">
+          <option value="0">Selecione</option>
+          <option value="java">Java</option>
+          <option value="python">Python</option>
+          <option value="c">C</option>
+          <option value="ruby">Ruby on Rails</option>
+          <option value="javascript">JavaScript</option>
+          <option value="csharp">C#</option>
+        </select>
+        <br>
       </fieldset>
+
+      <fieldset>
+        <legend>Area de interesse</legend>
+        <input type="checkbox"
+        name="html"
+        value="html"
+        id="html_id">
+        <label for="html_id">HTML</label>
+
+        <input type="checkbox"
+        name="css"
+        value="css"
+        id="css_id">
+        <label for="css_id">CSS</label>
+
+        <input type="checkbox"
+        name="javascript"
+        value="javascript"
+        id="javascript_id">
+        <label for="javascript_id">JAVASCRIPT</label>
+        <br>
+        <input type="checkbox"
+        name="php"
+        value="php"
+        id="php_id">
+        <label for="php_id">PHP</label>
+
+        <input type="checkbox"
+        name="mysql"
+        value="mysql"
+        id="mysql_id">
+        <label for="mysql_id">MySQL</label>
+
+        <input type="checkbox"
+        name="design"
+        value="design"
+        id="design_id">
+        <label for="design_id">DESIGN</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Mensagem</legend>
+        <textarea name="msg" rows="8" cols="80"></textarea>
+        <br>
+        <textarea name="msg" rows="8" cols="80" readonly>Aqui entra o texto do contrato que precisa ser aceito</textarea>
+        <br>
+        <input type="checkbox"
+        name="aceito"
+        id="aceito_id">
+        <label for="aceito_id">Li e aceito!</label>
+      </fieldset>
+      <input type="reset" name="" value="Resetar">
+      <input type="submit" name="" value="Enviar">
     </form>
   </body>
 </html>
