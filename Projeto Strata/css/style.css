@@ -1,4 +1,66 @@
 body {
   font-family: 'Open Sans', sans-serif;
   color: #636363;
+  line-height: 1.7;
+}
+
+a {
+  transition: color .2s linear;
+  text-decoration: none;
+  border-bottom: 1px dotted;
+}
+
+a:hover {
+  color: #39aa95;
+  border-bottom: 0;
+}
+
+.main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 35%;
+  box-sizing: border-box;
+  padding: 72px 60px;
+  background-image: url("../images/overlay.png"), url("../images/bg.jpg");
+  background-position: left top;
+  background-size: auto, cover;
+  text-align: right;
+}
+
+.main-header img {
+  border-radius: 50%;
+  width: 100px;
+  margin-top: 50px;
+}
+
+.main-header-link {
+  border-bottom: 0;
+}
+
+.main-header-title {
+  font-size: 18px;
+  line-height: 2;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.main-header-title a:hover {
+  color: #39aa95;
+}
+
+.main-header strong {
+  color: white;
+}
+
+.main-header a {
+  color: inherit;
+}
+
+.main-content {
+  height: 100%;
+  width: 65%;
+  margin-left: 35%;
+  padding: 72px 60px;
+  box-sizing: border-box;
 }
