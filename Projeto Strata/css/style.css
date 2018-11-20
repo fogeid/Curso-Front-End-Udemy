@@ -151,6 +151,43 @@ li {
   color: inherit;
 }
 
+.table {
+  width: 100%;
+  margin: 0 0 2em 0;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.table td {
+  padding: 15px;
+}
+
+.table th {
+  background: #ccc;
+  padding: 15px;
+}
+
+.table tbody tr:first-child td {
+  border-top: solid 2px #737373;
+}
+
+.table tbody tr:last-child td {
+  border-bottom: solid 2px #737373;
+}
+
+.table tbody tr td {
+  border-top: solid 1px #ccc;
+}
+
+.table tbody tr:nth-child(even) td {
+  background-color: #f2f2f2;
+}
+
+.table-alternate tbody tr td, .table-alternate tbody tr:first-child td,
+.table-alternate tbody tr:last-child td {
+  border: solid 1px #ccc;
+}
+
 .row {
   overflow: auto;
 }
