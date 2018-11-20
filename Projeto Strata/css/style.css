@@ -4,16 +4,24 @@ body {
   line-height: 1.7;
 }
 
-a {
+.link-html5up {
   transition: color .2s linear, border .2s linear;
   text-decoration: none;
   border-bottom: 1px dotted;
   color: #49bf9d;
 }
 
-a:hover {
+.link-html5up:hover {
   color: #39aa95;
   border-bottom: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover {
+  color: #39aa95;
 }
 
 p {
@@ -104,6 +112,43 @@ li {
   display: inline-block;
   font-size: 20px;
   color: #39aa95;
+}
+
+.button-default {
+  background-color: #39aa95;
+  border: solid 2px #39aa95;
+  color: white;
+  padding: .75em 1.5em;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.button-default-stroke {
+  background-color: white;
+  border-color: #efefef;
+  color: inherit;
+}
+
+.button-default-small {
+  font-size: 10px;
+}
+
+.button-default-full {
+  width: 100%;
+  margin-bottom: 10px;
+  display: inline-block;
+  text-align: center;
+}
+
+.button-default:hover {
+  background-color: #3fc1a8;
+  color: white;
+  border-color: #3fc1a8;
+}
+
+.button-default-stroke:hover {
+  background-color: white;
+  color: inherit;
 }
 
 .row {
