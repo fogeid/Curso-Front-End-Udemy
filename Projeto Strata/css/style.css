@@ -121,6 +121,7 @@ li {
   padding: .75em 1.5em;
   border-radius: 5px;
   font-size: 15px;
+  width: auto;
 }
 
 .button-default-stroke {
@@ -217,7 +218,7 @@ li {
   margin-left: 3%;
 }
 
-input, textarea {
+input, textarea, select {
   display: inline-block;
   width: 100%;
   box-sizing: border-box;
@@ -228,10 +229,13 @@ input, textarea {
   margin-bottom: 15px;
 }
 
-input:focus, textarea:focus {
+input:focus, textarea:focus, select:focus {
   border: solid 2px #39aa95;
   outline: none;
+}
 
+input[type="radio"], input[type="checkbox"] {
+  width: auto;
 }
 
 
