@@ -57,6 +57,12 @@ h6{
     font-size: 15px;
 }
 
+img {
+  max-width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
 blockquote {
   border-left: solid #efefef 5px;
   margin: 2em 0;
@@ -188,7 +194,27 @@ li {
 .table-alternate tbody tr:last-child td {
   border: solid 1px #ccc;
 }
+input, textarea, select {
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+  background: #f2f2f2;
+  padding: 15px;
+  border-radius: 5px;
+  border: solid 2px transparent;
+  margin-bottom: 15px;
+}
 
+input:focus, textarea:focus, select:focus {
+  border: solid 2px #39aa95;
+  outline: none;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  width: auto;
+}
+
+/*** GRID ***/
 .row {
   overflow: auto;
 }
@@ -218,26 +244,19 @@ li {
   margin-left: 3%;
 }
 
-input, textarea, select {
-  display: inline-block;
-  width: 100%;
-  box-sizing: border-box;
-  background: #f2f2f2;
-  padding: 15px;
-  border-radius: 5px;
-  border: solid 2px transparent;
-  margin-bottom: 15px;
+/*** GRID ***/
+
+.img-left {
+  margin-right: 20px;
+  float: left;
+  width: 100px;
 }
 
-input:focus, textarea:focus, select:focus {
-  border: solid 2px #39aa95;
-  outline: none;
+.img-right {
+  margin-left: 20px;
+  float: right;
+  width: 100px;
 }
-
-input[type="radio"], input[type="checkbox"] {
-  width: auto;
-}
-
 
 .main-header {
   position: fixed;
