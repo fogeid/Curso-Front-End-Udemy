@@ -19,9 +19,11 @@
       <h1 class="main-header-title">
         Trabalhos e groselhas de <br>
         <strong>Diego Batista</strong>,<br>
-        um zé ninguém qualquer.<br>
-        Retirado de <a href="http://www.html5up.net" target="_blank" class="link-html5up">HTML5 Up</a>.
+        um zé ninguém qualquer.
       </h1>
+      <p class="main-header-sub">
+        Retirado de <a href="http://www.html5up.net" target="_blank" class="link-html5up">HTML5 Up</a>.
+      </p>
     </header>
 
     <main class="main-content">
@@ -46,7 +48,7 @@
           <div class="col-2">
             <article class="recent-works-card">
               <a href="images/fulls/01.jpg">
-                <img src="images/thumbs/01.jpg" title="descrição">
+                <img src="images/thumbs/01.jpg" alt="descrição">
               </a>
               <p class="recent-work-card-title">
                 Magna sed consequat tempus
@@ -58,7 +60,7 @@
 
             <article class="recent-works-card">
               <a href="images/fulls/02.jpg">
-                <img src="images/thumbs/02.jpg" title="descrição">
+                <img src="images/thumbs/02.jpg" alt="descrição">
               </a>
               <p class="recent-work-card-title">
                 Ultricies lacinia interdum
@@ -70,7 +72,7 @@
 
             <article class="recent-works-card">
               <a href="images/fulls/03.jpg">
-                <img src="images/thumbs/03.jpg" title="descrição">
+                <img src="images/thumbs/03.jpg" alt="descrição">
               </a>
               <p class="recent-work-card-title">
                 Tortor metus commodo
@@ -84,7 +86,7 @@
           <div class="col-2">
             <article class="recent-works-card">
               <a href="images/fulls/04.jpg">
-                <img src="images/thumbs/04.jpg" title="descrição">
+                <img src="images/thumbs/04.jpg" alt="descrição">
               </a>
               <p class="recent-work-card-title">
                 Quam neque phasellus
@@ -96,7 +98,7 @@
 
             <article class="recent-works-card">
               <a href="images/fulls/05.jpg">
-                <img src="images/thumbs/05.jpg" title="descrição">
+                <img src="images/thumbs/05.jpg" alt="descrição">
               </a>
               <p class="recent-work-card-title">
                 Nunc enim commodo aliquet
@@ -108,7 +110,7 @@
 
             <article class="recent-works-card">
               <a href="images/fulls/06.jpg">
-                <img src="images/thumbs/06.jpg" title="descrição">
+                <img src="images/thumbs/06.jpg" alt="descrição">
               </a>
               <p class="recent-work-card-title">
                 Risus ornare lacinia
@@ -163,19 +165,19 @@
           <div class="col-1-3">
             <address class="">
               <p>
-                <span>Endereço</span>
+                <span>Endereço:</span>
                 1234 Somewhere Rd.
                 Nashville, TN 00000
                 United States
               </p>
 
               <p>
-                <span>Telefone</span>
+                <span>Telefone:</span>
                 +55 65 9 9269-7045
               </p>
 
               <p>
-                <span>E-mail</span>
+                <span>E-mail:</span>
                 hello@untitled.tld
               </p>
             </address>
@@ -192,7 +194,7 @@
         </p>
 
         <blockquote cite="http://developer.mozilla.org">
-            Essa é uma citação tirada do Mozilla Developer Center.
+          <p>Essa é uma citação tirada do Mozilla Developer Center.</p>
         </blockquote>
 
         <p>According to Mozilla's website,
@@ -385,51 +387,55 @@
 
         <h5>Form</h5>
 
-        <label for="nome2.id">Nome</label>
-        <input type="text"
-        name="nome"
-        id="nome2.id">
+        <form class="" action="#" method="post">
+          <label for="nome2.id">Nome</label>
+          <input type="text"
+          name="nome"
+          id="nome2.id">
 
-        <label for="email2.id">E-mail</label>
-        <input type="email"
-        name="email"
-        id="email2.id">
+          <label for="email2.id">E-mail</label>
+          <input type="email"
+          name="email"
+          id="email2.id">
 
-        <select class="" name="">
-          <option value="0">-- Selecione --</option>
-          <option value="1">HTML</option>
-          <option value="2">CSS</option>
-          <option value="3">JAVASCRIPT</option>
-        </select>
+          <select class="" name="">
+            <option value="0">-- Selecione --</option>
+            <option value="1">HTML</option>
+            <option value="2">CSS</option>
+            <option value="3">JAVASCRIPT</option>
+          </select>
 
-        <label><input type="radio" value="baixa" name="prioridade">
-        Baixa Prioridade</label><br>
+          <label><input type="radio" value="baixa" name="prioridade">
+          Baixa Prioridade</label><br>
 
-        <label><input type="radio" value="media" name="prioridade">
-        Média Prioridade</label><br>
+          <label><input type="radio" value="media" name="prioridade">
+          Média Prioridade</label><br>
 
-        <label><input type="radio" value="alta" name="prioridade">
-        Alta Prioridade</label><br>
+          <label><input type="radio" value="alta" name="prioridade">
+          Alta Prioridade</label><br>
 
-        <input type="checkbox"
-        name="copy"
-        id="copia.id"
-        value="1">
-        <label for="copia.id">Envie-me uma cópia</label><br>
+          <input type="checkbox"
+          name="copy"
+          id="copia.id"
+          value="1">
+          <label for="copia.id">Envie-me uma cópia</label><br>
 
-        <input type="checkbox"
-        name="human"
-        id="humano.id"
-        value="1">
-        <label for="humano.id">Sou humano</label><br>
+          <input type="checkbox"
+          name="human"
+          id="humano.id"
+          value="1">
+          <label for="humano.id">Sou humano</label><br>
 
-        <label for="mensagem2.id">Mensagem</label>
-        <textarea name="name"
-        placeholder="Digite uma mensagem"
-        id="mensagem2.id"></textarea>
+          <label for="mensagem2.id">Mensagem</label>
+          <textarea name="name"
+          placeholder="Digite uma mensagem"
+          id="mensagem2.id"></textarea>
 
-        <input type="submit" class="button-default" value="Enviar">
-        <input type="reset" class="button-default button-default-stroke"  value="Limpa">
+          <input type="submit" class="button-default" value="Enviar">
+          <input type="reset" class="button-default button-default-stroke"  value="Limpa">
+        </form>
+
+
 
         <h3>Images</h3>
         <div class="gallery-img">

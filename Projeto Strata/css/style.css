@@ -67,7 +67,10 @@ blockquote {
   border-left: solid #efefef 5px;
   margin: 2em 0;
   padding: .5em 0 .5em 1.5em;
+}
 
+blockquote p {
+  margin-bottom: 0;
 }
 
 code {
@@ -290,6 +293,11 @@ input[type="radio"], input[type="checkbox"] {
   font-size: 20px;
   line-height: 2;
   color: rgba(255, 255, 255, 0.5);
+}
+
+.main-header-sub {
+  font-size: 15px;
+  margin-top: -20px;
 }
 
 .main-header-title a:hover {
