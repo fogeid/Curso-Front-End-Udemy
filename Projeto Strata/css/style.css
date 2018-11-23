@@ -128,16 +128,20 @@ li {
   border-radius: 5px;
   font-size: 15px;
   width: auto;
+  transition: all .5s;
+  cursor: pointer;
 }
 
 .button-default-stroke {
   background-color: white;
   border-color: #efefef;
   color: inherit;
+  transition: all .5s;
 }
 
 .button-default-small {
   font-size: 10px;
+  transition: all .5s;
 }
 
 .button-default-full {
