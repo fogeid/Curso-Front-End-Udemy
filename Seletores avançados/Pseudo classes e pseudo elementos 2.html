@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pseudo classes e Pseudo elementos pt 2</title>
+
+    <style media="screen">
+      input[type="checkbox"] {
+        border: solid 2px red;
+        width: 20px;
+        height: 20px;
+      }
+
+      input[type="checkbox"]:checked {
+        width: auto;
+        height: auto;
+      }
+
+      button:disabled {
+        background: blue;
+      }
+
+      p {
+        color: red;
+      }
+
+      p:empty:before {
+        content: "Vai se fuder";
+      }
+
+      a:focus, a:hover, div:focus{
+        background: red;
+      }
+
+      input::placeholder {
+        color: red;
+      }
+
+      input:read-only {
+        background: green;
+      }
+
+    </style>
+
+
+  </head>
+  <body>
+    <label><input type="checkbox" value="sim">
+    Aceito o contrato
+    </label>
+    <br>
+    <button type="button" name="button">vai</button>
+    <button type="button" name="button" disabled>volta</button>
+
+    <p>paragrafo 1</p>
+    <p> </p>
+    <p></p>
+    <hr>
+
+    <input type="text">
+    <input type="text" value="valor inicial">
+    <input type="text" value="valor inicial" readonly>
+    <input type="text" value="valor inicial" disabled>
+    <input type="text" placeholder="valor placeholder">
+
+    <ul>
+      <li><a href="#">link falso</a></li>
+      <li><a href="#">link falso</a></li>
+      <li><a href="#">link falso</a></li>
+      <li><a href="#">link falso</a></li>
+    </ul>
+
+    <div tabindex="1">div 1</div>
+    <div tabindex="2">div 2</div>
+    <div tabindex="3">div 3</div>
+
+
+  </body>
+</html>

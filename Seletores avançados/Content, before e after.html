@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Content, before e after</title>
+    <meta name="author" content="Diego Batista">
+    <meta name="description" content="">
+
+    <style media="screen">
+      div {
+        border: solid 3px red;
+        padding: 25px;
+      }
+
+      div::before {
+        content: "-texto before-";
+      }
+
+      div::after {
+        content: " -texto after-"
+      }
+
+    </style>
+
+  </head>
+  <body>
+    <div class="">
+      Texto principal da div
+    </div>
+    <article>
+      <h3>titulo</h3>
+      <p>paragrafo <a href="#">apenas um link com <b>negrito</b></a></p>
+      <p>paragrafo <a href="#">apenas um link com <b>negrito</b></a></p>
+      <p>paragrafo <a href="#">apenas um link com <b>negrito</b></a></p>
+    </article>
+
+    <ul>
+      <li><a href="#">link falso</a></li>
+      <li><a href="#">link falso</a></li>
+      <li><a href="http://www.google.com" target="_blank">link externo</a></li>
+      <li><a href="23_transition.html">link interno</a></li>
+      <li><a href="vsf.html" title="veja o caralho">link interno</a></li>
+
+    </ul>
+  </body>
+</html>
