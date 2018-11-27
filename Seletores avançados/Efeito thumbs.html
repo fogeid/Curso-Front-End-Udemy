@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Efeito Thumbs</title>
+
+    <style media="screen">
+      body {
+        font-family: sans-serif;
+      }
+
+      a {
+        display: block;
+        margin: 10px;
+        position: relative;
+      }
+
+      a img {
+        width: 100%;
+        display: block;
+      }
+
+      a:before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: transparent;
+        transition: all .5s;
+      }
+
+      a:hover:before {
+        background: rgba(0, 0, 0, .5);
+      }
+
+      a:hover:after {
+        content: 'Veja Mais';
+        display: block;
+        position: absolute;
+        border: solid 3px white;
+        color: white;
+        top: 50%;
+        left: 50%;
+        padding: 10px 20px;
+        transform: translate(-50%, -50%);
+        opacity: 1;
+      }
+
+      a:after {
+        opacity: 0;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <h1>Efeito Thumbs</h1>
+
+    <section>
+      <article class="">
+        <a href="#">
+          <img src="imagens/thumbs/01.jpg" alt="">
+        </a>
+      </article>
+      <article class="">
+        <a href="#">
+          <img src="imagens/thumbs/02.jpg" alt="">
+        </a>
+      </article>
+      <article class="">
+        <a href="#">
+          <img src="imagens/thumbs/03.jpg" alt="">
+        </a>
+      </article>
+      <article class="">
+        <a href="#">
+          <img src="imagens/thumbs/04.jpg" alt="">
+        </a>
+      </article>
+      <article class="">
+        <a href="#">
+          <img src="imagens/thumbs/05.jpg" alt="">
+        </a>
+      </article>
+      <article class="">
+        <a href="#">
+          <img src="imagens/thumbs/06.jpg" alt="">
+        </a>
+      </article>
+    </section>
+
+  </body>
+</html>
