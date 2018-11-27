@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Desafio</title>
+
+    <style media="screen">
+      body {
+        font-family: sans-serif;
+      }
+
+      label {
+        margin-right: 25px;
+      }
+
+      label span {
+        display: inline-block;
+        width: 60px;
+        height: 30px;
+        background: #ccc;
+        border-radius: 15px;
+      }
+
+      label span:before {
+        content: '';
+        display: block;
+        background: #eee;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        margin: 5px;
+        transition: all .2s ease-in-out;
+      }
+
+      label input:checked + span:before {
+        transform: translateX(30px);
+        background: green;
+      }
+
+      input {
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        visibility: hidden;
+        display: inline-block;
+        margin: 0;
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1>Desafio Label</h1>
+
+    <label>
+      <input type="checkbox">
+      <span></span>
+      Esporte
+    </label>
+
+    <label>
+      <input type="checkbox">
+      <span></span>
+      Politica
+    </label>
+
+    <label>
+      <input type="checkbox">
+      <span></span>
+      Educação
+    </label>
+
+    <div class="vsf">
+
+    </div>
+
+  </body>
+</html>
