@@ -57,3 +57,8 @@ input::placeholder {
 .button:hover {
   background: #6affcf;
 }
+
+.created {
+  text-align: center;
+  color: #016a48;
+}
