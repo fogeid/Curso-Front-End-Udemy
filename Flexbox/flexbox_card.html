@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Flexbox na prática</title>
+
+    <style media="screen">
+      .cardContainer {
+        display: flex;
+
+
+      }
+
+      .cardFlex {
+        border: solid 1px black;
+        width: 30%;
+        padding: 10px;
+        margin: 1%;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .cardFlex p {
+        flex-grow: 1;
+      }
+
+      .cardFlex button {
+        align-self: flex-end;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Display flex</h2>
+    <p>Acomodar ou distribuir alementos de modo fácil.</p>
+    <p>Ajudar a centralizar na vertical.</p>
+
+    <section class="cardContainer">
+      <article class="cardFlex">
+        <h3>titulo</h3>
+        <p>Mussum Ipsum, cacilds vidis litro abertis. Per aumento de cachacis, eu
+          reclamis. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis!
+          Praesent vel viverra nisi.</p>
+        <button type="button" name="button">Vai</button>
+      </article>
+
+      <article class="cardFlex">
+        <h3>titulo</h3>
+        <p>Mussum Ipsum, cacilds vidis litro abertis. Per aumento de cachacis, eu
+          reclamis. Si u mundo tá muito paradis? Toma um mé que o mundo vai girarzis!
+          Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget.
+          In elementis mé pra quem é amistosis quis leo.</p>
+        <button type="button" name="button">Vai</button>
+      </article>
+
+      <article class="cardFlex">
+        <h3>titulo</h3>
+        <p>Mussum Ipsum, cacilds vidis litro abertis.</p>
+        <button type="button" name="button">Vai</button>
+      </article>
+    </section>
+  </body>
+</html>
