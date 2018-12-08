@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Grit Template</title>
+
+    <style media="screen">
+      .gridContainer {
+        width: 300px;
+        background: #ccc;
+      }
+
+      .gridItem {
+        background: #999;
+        font-size: 2em;
+        font-family: sans-serif;
+        padding: 5px 15px;
+      }
+
+      .gridItem:nth-child(even) {
+        background: #999;
+        color: white
+      }
+
+      .gridItem:nth-child(odd) {
+        background: #eee;
+      }
+
+      /* GRID */
+      .gridContainer {
+        width: 100%;
+        display: grid;
+        /* grid-template-columns: 100px 100px 100px; */
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 100px 100px;
+        /* grid-row-gap: 10px;
+        grid-column-gap: 10px; */
+        grid-gap: 10px 10px;
+      }
+
+      .gridItem:nth-child(1) {
+        /* grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2; */
+
+        grid-column: 2 / -1;
+        grid-row: 1 / 2;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Grid template</h2>
+
+    <div class="gridContainer">
+      <div class="gridItem">1</div>
+      <div class="gridItem">2</div>
+      <div class="gridItem">3</div>
+      <div class="gridItem">4</div>
+      <div class="gridItem">5</div>
+      <div class="gridItem">6</div>
+    </div>
+  </body>
+</html>
