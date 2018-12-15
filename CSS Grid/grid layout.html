@@ -21,8 +21,10 @@
 
       .gridContainer {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 100px 50px 1fr 50px;
+        grid-template-columns: [col1-start] 1fr [col1-end col2-start] 1fr
+        [col2-end col3-start] 1fr [col3-end];
+        grid-template-rows: [header-start] 100px [header-end nav-start]
+        50px [nav-end main-start] 1fr [main-end footer-start] 50px [footer-end];
         grid-gap: 20px;
 
         grid-template-areas:
@@ -35,30 +37,40 @@
 
       .header {
         /* grid-column: 1 / -1; */
-        grid-area: header;
+        /* grid-area: header; */
+        grid-column: col1-start / col3-end;
+        grid-row: header-start / header-end;
       }
 
       .nav {
         /* grid-column: 1 / 3; */
-        grid-area: nav;
+        /* grid-area: nav; */
+        grid-column: col1-start / col2-end;
+        grid-row: nav-start / nav-end;
       }
 
       .aside {
         /* grid-row: 2 / -1; */
         /* grid-column: 3 / 4; */
-        grid-area: aside;
+        /* grid-area: aside; */
+        grid-column: col3-start / col3-end;
+        grid-row: nav-start / footer-end;
       }
 
       .main {
         /* grid-column: 1 / 3; */
         min-height: 200px;
-        grid-area: main;
+        /* grid-area: main; */
+        grid-column: col1-start / col2-end;
+        grid-row: main-start / main-end;
       }
 
       .footer {
         /* grid-column: 1 / 3; */
         /* grid-row: 4 / 5; */
-        grid-area: footer;
+        /* grid-area: footer; */
+        grid-column: col1-start / col3-end;
+        grid-row: footer-start / footer-end;
       }
     </style>
   </head>
