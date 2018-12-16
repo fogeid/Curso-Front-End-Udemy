@@ -18,12 +18,12 @@
       Dará os primeiros passos com Javascript e descobrirá o poder dessa linguagem, que atualmente é a mais utilizada entre os desenvolvedores web.
     </p>
 
-    <p><i>
+    <p>
       Vídeo sob demanda de 54 horas <br>
       19 artigos <br>
       185 recursos para download <br>
       Certificado de Conclusão <br>
-    </i></p>
+    </p>
 
   </body>
 </html>
