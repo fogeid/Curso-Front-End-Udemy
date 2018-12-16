@@ -10,6 +10,8 @@
     <h2>Avaliação: 4.7</h2>
     <h2>Total de alunos: 2.643 inscritos</h2>
     <h2>Idioma: Português</h2>
+    <h2>Plataforma: Udemy</h2>
+    <h2>Link: https://www.udemy.com/curso-web-design-fundamentos-aprenda-html-css-e-javascript/</h2>
     <h3>Descrição</h3>
     <p>
       Neste curso você irá aprender e desenvolver suas habilidades com HTML e CSS, além de ter uma boa base da linguagem de programação Javascript.
