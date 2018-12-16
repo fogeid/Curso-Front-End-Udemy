@@ -21,10 +21,10 @@
     </p>
 
     <p>
-      Vídeo sob demanda de 54 horas <br>
-      19 artigos <br>
-      185 recursos para download <br>
-      Certificado de Conclusão <br>
+      Vídeo sob demanda de 54 horas
+      19 artigos
+      185 recursos para download
+      Certificado de Conclusão 
     </p>
 
   </body>
