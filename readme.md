@@ -2,14 +2,7 @@
 <html lang="pt-br" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="author" content="Diego Batista">
-    <title>Curso Web Design Completo: HTML5, CSS3 e JS + 5 Projetos</title>
-
-    <style media="screen">
-      body {
-        font-family: sans-serif;
-      }
-    </style>
+    <meta name="author" content="Diego Batista">  
   </head>
   <body>
     <h1>Curso Web Design Completo: HTML5, CSS3 e JS + 5 Projetos</h1>
