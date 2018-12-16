@@ -19,12 +19,11 @@
       Já com relação ao CSS você verá em detalhes todas as propriedades necessárias para criar layouts de páginas e sites na web. Iremos também desenvolver um projeto responsivo, ou seja, que funciona bem em todos os dispositivos, mobiles, tablets e desktop.
       Dará os primeiros passos com Javascript e descobrirá o poder dessa linguagem, que atualmente é a mais utilizada entre os desenvolvedores web.
     </p>
-
     <p>
       Vídeo sob demanda de 54 horas
       19 artigos
       185 recursos para download
-      Certificado de Conclusão 
+      Certificado de Conclusão
     </p>
 
   </body>
